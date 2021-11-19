@@ -1,0 +1,101 @@
+.card_holder {
+  width: 40%;
+  background-size: cover;
+  margin: auto;
+  margin-top: 20px;
+  background: #fff;
+}
+/* .postar {
+  background-size: cover;
+  background: red;
+  width: 300px;
+} */
+.poster > img {
+  background-size: cover;
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+body {
+  background: rgb(231, 230, 230);
+}
+.heading_holder {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.heading_holder > div {
+  flex-basis: 50%;
+}
+.title {
+  font-weight: bold;
+  font-size: 30px;
+  padding-left: 10px;
+}
+.icon_holder {
+  display: flex;
+}
+.icon {
+  background-size: cover;
+  flex-basis: 30%;
+}
+.icon > img {
+  width: 80%;
+  background-size: cover;
+  border-radius: 50%;
+}
+.content {
+  font-size: 23px;
+  color: rgb(131, 126, 126);
+  line-height: 30px;
+  padding-left: 10px;
+  padding-right: 0px;
+  padding-bottom: 20px;
+}
+.detail_holder {
+  display: flex;
+  padding-bottom: 20px;
+}
+.detail_holder > div {
+  flex-basis: 33%;
+  text-align: center;
+
+  color: rgb(122, 117, 117);
+  font-size: 25px;
+}
+.detail_holder > div:nth-child(1) {
+  text-align: left;
+  padding-left: 10px;
+}
+.price_and_btn_holder {
+  display: flex;
+  padding-bottom: 10px;
+}
+.price_and_btn_holder > div {
+  flex-basis: 33%;
+}
+.original_price {
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 10px;
+  text-align: center;
+}
+.discount_price {
+  font-size: 25px;
+  color: red;
+  text-decoration: line-through;
+}
+.btn {
+  background: rgba(49, 192, 44, 0.822);
+  color: #fff;
+  width: 80%;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.btn > span {
+  margin-left: 1.5%;
+}
